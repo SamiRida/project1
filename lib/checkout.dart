@@ -23,7 +23,7 @@ class Checkout extends StatelessWidget {
           children: [
             const Icon(
 
-              Icons.check_circle,   color: Colors.green,   size: 100,
+              Icons.check_circle_outline,   color: Colors.green,   size: 100,
 
               ),
 
