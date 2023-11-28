@@ -187,7 +187,6 @@ class _StoreState extends State<Store> {
 
                         Navigator.of(context).push(
                           MaterialPageRoute(builder: (context) => const Shoes()),
-
                           );
                       },
 
