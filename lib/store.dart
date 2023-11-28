@@ -181,6 +181,7 @@ class _StoreState extends State<Store> {
 
                         ),
                       ),
+
                       onPressed: () {
 
                         Navigator.of(context).push(
