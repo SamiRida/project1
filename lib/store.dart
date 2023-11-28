@@ -180,7 +180,6 @@ class _StoreState extends State<Store> {
                           borderRadius: BorderRadius.circular(15),
 
                         ),
-
                       ),
                       onPressed: () {
 

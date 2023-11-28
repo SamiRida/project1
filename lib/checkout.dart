@@ -15,7 +15,6 @@ class Checkout extends StatelessWidget {
           backgroundColor: Colors.cyan.shade200,
 
           ),
-
         body: Center(
             child: Column(
 
