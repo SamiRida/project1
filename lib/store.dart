@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projectshop/search.dart';
 import 'jacketsHome.dart';
 import 'pantsHome.dart';
 import 'shirtsHome.dart';
@@ -17,7 +18,13 @@ class _StoreState extends State<Store> {
     return Scaffold(
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(70.0),
-        child: AppBar(
+        child: AppBar( actions: [IconButton(onPressed: () {
+          setState(() { // open the search product page
+            Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => const Search())
+            );
+          });
+        }, icon: const Icon(Icons.search))],
           centerTitle: true,
           title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -29,6 +36,7 @@ class _StoreState extends State<Store> {
 
             ],
           ),
+
 
           backgroundColor: Colors.cyan.shade200,
 

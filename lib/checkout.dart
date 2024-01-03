@@ -6,7 +6,7 @@ class Checkout extends StatelessWidget {
   const Checkout({Key? key, required this.total}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) {  
     return Scaffold(
 
       appBar: AppBar(
